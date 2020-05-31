@@ -1,0 +1,9 @@
+Resources:
+  Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: lambda.handler
+      CodeUri: E:/practice/test/Aws Demo/Lambda-demo
+      Runtime: nodejs12.x
+      Timeout: 300
+      MemorySize: 128
